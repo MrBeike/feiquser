@@ -2,7 +2,7 @@
 a tool to collect users account and offer search service.
 > 主要是飞秋经常找不到好友，有时候又不记得对方IP地址，很是麻烦。可以选一台机器作为主机，提前多刷点好友出来，然后解析保存好友信息，然后利用飞秋机器人的功能，构造简单的查询服务。
   
-##功能说明
+## 功能说明
 - userParser.py
 > 1.利用飞秋软件提供的接口导出好友信息，并解析存储。
 - webService.py
