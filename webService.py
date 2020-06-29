@@ -38,7 +38,7 @@ def application(environ, start_response):
         return[response]
 
 def start_server():
-    # 创建一个服务器，IP地址为空，端口是8000，处理函数是application:
+    # 创建一个服务器，IP地址为空，端口是9999，处理函数是application:
     httpd = make_server('0.0.0.0', 9999, application)
     # 开始监听HTTP请求:
     httpd.serve_forever()
